@@ -43,7 +43,7 @@ export default function ConsultationSummary() {
         </div>
         <div className="flex items-center space-x-2">
           <Button variant="ghost" size="sm">
-            <Share2 className="w-4 h-4" />
+            <Download className="w-4 h-4" />
           </Button>
           <button 
             onClick={() => router.back()}
@@ -51,11 +51,6 @@ export default function ConsultationSummary() {
           >
             <X className="w-5 h-5 text-blue-600" />
           </button>
-        </div>
-      </div>
-          <Button variant="ghost" size="sm">
-            <Download className="w-4 h-4" />
-          </Button>
         </div>
       </div>
 
